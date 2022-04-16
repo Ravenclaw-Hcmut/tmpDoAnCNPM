@@ -1,0 +1,45 @@
+root ele:
+    bắt buộc
+
+2 way binding
+    depend on type of ele
+    value binding: v-bind
+        v-bind:     ~   : only
+    style vs class binding
+    v-model:    html -> data()
+
+model:
+    ele vs property
+event handling
+    v-on:<name> = "fasdf()"
+        @Click      ~   v-on:click
+    prevent
+    debouce
+
+ref
+Conditional rendering:
+    + v-show: An /hien 1 element theo dieu kien
+    + v-hide: nguoc lai
+    + v-if: An /hien 1 element theo dieu kien
+    + v-el:
+List rendering:
+    + v-for
+
+methods:
+    + Ham cua vue object
+watch:
+    + Theo doi su thay doi cua data
+hooks:
+    + mounted:
+Props:
+    + Du lieu day,tu component cha => component con
+    + Dung mang ten cac props
+Props giong nhu data
+
+
+ 
+Data = state 
+Vuex = Redux 
+Vue router = router
+Component = component
+props
